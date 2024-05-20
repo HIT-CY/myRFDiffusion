@@ -5,8 +5,8 @@
 **Structure**
 -------------
 本项目部署在服务器上的目录结构如下
-
-
+![image](https://github.com/HIT-CY/myRFDiffusion/blob/master/img/structure1.png)
+![image](https://github.com/HIT-CY/myRFDiffusion/blob/master/img/structure2.png)
 **FMCW Data Generation**
 -----------
 在Dockerfile所在目录下构建docker镜像<br>
@@ -23,7 +23,8 @@
 ```
 **Result**
 ----------
-
+![image](https://github.com/HIT-CY/myRFDiffusion/blob/master/img/result1.png)
+![image](https://github.com/HIT-CY/myRFDiffusion/blob/master/img/result2.png)
 
 
 
