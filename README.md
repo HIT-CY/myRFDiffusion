@@ -10,9 +10,9 @@
 **FMCW Data Generation**
 -----------
 在Dockerfile所在目录下构建docker镜像<br>
-'''python
+```python
     docker build --no-cache -t myfmcw .
-'''
+```
 在此目录下运行docker镜像进行训练<br>
     docker run --rm --gpus all myfmcw python3 ./RF_Diffusion_fmcw/train.py --task_id 1
 在此目录下运行docker镜像生成FMCW Data<br>
