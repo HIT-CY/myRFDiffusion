@@ -14,10 +14,13 @@
     docker build --no-cache -t myfmcw .
 ```
 在此目录下运行docker镜像进行训练<br>
+```python
     docker run --rm --gpus all myfmcw python3 ./RF_Diffusion_fmcw/train.py --task_id 1
+```
 在此目录下运行docker镜像生成FMCW Data<br>
+```python
     docker run --rm --gpus all myfmcw
-
+```
 **Result**
 ----------
 
