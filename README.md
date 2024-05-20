@@ -5,7 +5,7 @@
 **Structure**
 -------------
 
-本项目部署在服务器上的目录结构如下
+本项目部署在服务器上的目录结构如下<br>
 ![image](https://github.com/HIT-CY/myRFDiffusion/blob/master/img/structure1.png)
 ![image](https://github.com/HIT-CY/myRFDiffusion/blob/master/img/structure2.png)
 
