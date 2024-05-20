@@ -14,6 +14,7 @@
 -----------
 对FMCW数据集进行处理，最终得到数据集维度（3x4）x128x256x（600x22），其中3是发送天线数量，4是接收天线数量，128是每一帧的chirp数量，256是每一帧的采样率，共22个人，每一个人600帧数据。<br>
 参数调整：sample_rate=256，input_dim=128，cond_dim=1，batch_size=16<br>
+
 在Dockerfile所在目录下构建docker镜像<br>
 ```python
     docker build --no-cache -t myfmcw .
